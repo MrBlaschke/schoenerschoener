@@ -1,0 +1,110 @@
+// Anpassungen, Frank Price */
+// Compiled by Template in Backend!
+
+@import "../less/theme.less";
+
+
+// Testüberschreibungen...
+.tm-footer {
+    // color: pink;
+}
+
+
+@media (max-width: @breakpoint-mini-max) {
+// Anpassungen für kleine Handy-Displays
+
+    @-ms-viewport{
+        width: device-width;
+    }
+
+	@global-font-size:                              14px;
+	@global-line-height:                            18px;
+
+
+
+	blockquote {
+		padding-left: 0;
+		border-left: 0 solid transparent;
+		font-size: 16px;
+		line-height: 22px;
+		font-style: 200;
+		margin: inherit;
+
+		// color: yellow;
+	}
+
+
+	html {
+
+	    /* 1 */
+	    font: @base-body-font-weight @base-body-font-size e("/") @base-body-line-height @base-body-font-family;
+	    /* 2 */
+	    -webkit-text-size-adjust: 100%;
+	    -ms-text-size-adjust: 100%;
+	    /* 3 */
+	    background: @base-body-background;
+	    color: @base-body-color;
+	    .hook-base-body;
+
+		h1, .uk-h1 {
+		    font-size: round(@base-h1-font-size * 0.65);
+		    line-height: @base-h1-line-height;
+		    .hook-base-h1;
+		    // color: pink !important;
+		}
+
+		h2, .uk-h2 {
+		    font-size: round(@base-h2-font-size * 0.65);
+		    line-height: @base-h2-line-height;
+		    .hook-base-h2;
+			// color: pink !important;
+		}
+
+		h3, .uk-h3 {
+		    font-size: round(@base-h3-font-size * 0.65);
+		    line-height: @base-h3-line-height;
+		    .hook-base-h3;
+			// color: pink !important;
+		}
+
+		h4, .uk-h4 {
+		    font-size: round(@base-h4-font-size * 0.65);
+		    line-height: @base-h4-line-height;
+		    .hook-base-h4;
+			// color: pink !important;
+		}
+
+		h5, .uk-h5 {
+		    font-size: round(@base-h5-font-size * 0.65);
+		    line-height: @base-h5-line-height;
+		    .hook-base-h5;
+			// color: pink !important;
+		}
+
+		h6, .uk-h6 {
+		    font-size: round(@base-h6-font-size * 0.65);
+		    line-height: @base-h6-line-height;
+		    .hook-base-h6;
+			// color: pink !important;
+		}
+
+		.tm-padding-large { padding: round(@theme-padding-large * 0.15); }
+
+
+		.uk-text-small {
+		    font-size: round(@text-small-font-size * 0.65);
+		    line-height: round(@text-small-line-height * 0.65);
+		}
+
+		.uk-text-large {
+		    font-size: round(@text-large-font-size * 0.65);
+		    line-height: round(@text-large-line-height * 0.65);
+		    font-weight: @text-large-font-weight;
+		}
+
+
+	}
+
+
+
+}

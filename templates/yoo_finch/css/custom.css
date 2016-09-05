@@ -1,0 +1,79 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+/* Abstandsdefinition zu oberem Seitenrand für kleinste Auflösungen */
+.uk-panel-box {
+	/*// padding-top: 70px;*/
+	/*border: 4px solid yellow;*/
+
+}
+
+.uk-panel-box-secondary a {
+	color: #2c9569;
+}
+
+.tm-logo {
+    margin-top: 8px;
+}
+
+.tm-panel-align-right-no-margin {
+	float: right;
+	/* margin-right: -25px; */
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.6rem !important;
+	line-height: 2.1rem !important;
+}
+
+/* Tablet and bigger */
+@media (min-width: 768px) {
+	.tm-padding-large {
+		/*// padding: 65px; */
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-size: 2.1rem !important;
+		line-height: 2.6rem !important;
+	}
+}
+
+@media (min-width: 960px) {
+	.tm-panel-height {
+	 	/*// min-height: 570px;*/
+	 	min-height: 170px;
+	}
+}
+
+
+
+
+
+/*Trenner auf Kundenwunsch zwischen den Blöcken*/
+.tm-block-top-b, .tm-block-top-c, .tm-block-top-d, .tm-block-bottom-a, .tm-block-bottom-b, .tm-block-bottom-c, .tm-block-bottom-d, .tm-block-bottom-e {
+	border-top: 20px solid white !important;
+}
+
+
+
+
+
+
+
+.correction-margin-top-minus-90 { margin-top: -90% !important; }
+.correction-margin-top-minus-70 { margin-top: -70% !important; }
+.correction-margin-top-minus-60 { margin-top: -60% !important; }
+.correction-margin-top-minus-50 { margin-top: -50% !important; }
+.correction-margin-top-minus-40 { margin-top: -40% !important; }
+.correction-margin-top-minus-30 { margin-top: -30% !important; }
+
+.correction-margin-top-plus-xxl { margin-top: 135% !important; }
+.correction-margin-top-plus-60 { margin-top: 60% !important; }
+.correction-margin-top-plus-50 { margin-top: 50% !important; }
+.correction-margin-top-plus-40 { margin-top: 40% !important; }
+.correction-margin-top-plus-30 { margin-top: 30% !important; }
+
